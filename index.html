@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--  CSS -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+    <!--  Font Roboto - Google Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <title>Pokedex</title>
+</head>
+<body>
+    
+    <section class="content">
+        <header>
+            <span class="back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
+            </span>
+            
+            
+
+                <span class="sort">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list"><line x1="8" x2="21" y1="6" y2="6"/><line x1="8" x2="21" y1="12" y2="12"/><line x1="8" x2="21" y1="18" y2="18"/><line x1="3" x2="3.01" y1="6" y2="6"/><line x1="3" x2="3.01" y1="12" y2="12"/><line x1="3" x2="3.01" y1="18" y2="18"/></svg>
+                </span>
+                <!-- <span class="pokebola-svg">
+                    <svg width="498" height="500" viewBox="0 0 498 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M396.691 275H497.531C484.988 401.333 378.398 500 248.766 500C119.133 500 12.543 401.333 0 275H100.84C112.742 345.943 174.441 400 248.766 400C323.09 400 384.789 345.943 396.691 275ZM396.691 225H497.531C484.988 98.6667 378.398 0 248.766 0C119.133 0 12.543 98.6667 0 225H100.84C112.742 154.057 174.441 100 248.766 100C323.09 100 384.789 154.057 396.691 225ZM249 350C304.228 350 349 305.228 349 250C349 194.772 304.228 150 249 150C193.772 150 149 194.772 149 250C149 305.228 193.772 350 249 350Z" fill="#F6F6F6"/>
+                        </svg>
+                </span> -->
+        </header>
+        
+        <h1>Pokedex</h1>
+        <ol class="pokemons" id="pokemonList">
+            <!-- Pokemons dinâmicos aqui -->
+          
+        </ol>
+
+        <div class="pagination">
+            <button type="button" id="loadMoreItems">Load</button>
+        </div>
+    </section>
+
+    
+
+    
+   
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

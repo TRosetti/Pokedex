@@ -1,0 +1,32 @@
+:root{
+    --font1: 'Roboto', sans-serif;
+}
+*{
+  font-family: var(--font1);
+  box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #f6f8fc;
+    color: black;
+}
+.content{
+
+    padding: 1rem;
+    background-color: #fff;
+    
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+

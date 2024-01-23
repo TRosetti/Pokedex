@@ -1,0 +1,13 @@
+body{
+    background-color: #77c850;
+}
+
+.details h1, .details p{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.details  .types{
+    margin: 10px;
+}
